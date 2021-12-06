@@ -1,0 +1,93 @@
+.weather-app {
+  min-width: 600px;
+  min-height: 900px;
+  width: fit-content;
+  margin: 60px auto;
+  border-radius: 90px;
+  border: 5px solid white;
+  background: white;
+  box-shadow: 5px 5px 5px 5px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+h1,
+.temperature,
+.rain,
+.humidity,
+.wind,
+.time,
+p,
+.units {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.temperature,
+.description,
+.rain,
+.humidity,
+.time {
+  padding: 0;
+}
+
+.time {
+  font-size: 30px;
+}
+
+h1 {
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+}
+
+.temperature {
+  font-size: 90px;
+  font-weight: normal;
+}
+
+.rain,
+.humidity,
+.wind,
+p,
+h3 {
+  font-size: 20px;
+}
+
+.mb-3 {
+  max-width: 400px;
+  border-radius: 50px;
+}
+
+.button {
+  background-color: green;
+}
+
+p {
+  padding: 20px 0 20px;
+  text-transform: capitalize;
+}
+
+.outlook {
+  padding: 0 30px 0 30px;
+}
+
+#celsius-link,
+#fahrenheit-link,
+.units {
+  color: greenyellow;
+  font-size: 20px;
+  padding: 0;
+}
+
+.units {
+  position: relative;
+  left: 75px;
+  top: -80px;
+}
+
+.description {
+  font-size: 30px;
+}
